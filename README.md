@@ -45,7 +45,7 @@ The project includes a custom PostgreSQL query to analyze price trends over the 
     * **Password:** `your_16_digit_app_password` (No spaces)
   ### 3. Requirements
   ```bash
-  pip install apache-airflow beautifulsoup4 requests
+  pip install apache-airflow beautifulsoup4 requests ```
 
 ## 💡 Key Learnings
   * Scheduling and managing complex workflows with **Airflow DAGs**.
