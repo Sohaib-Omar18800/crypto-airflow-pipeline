@@ -30,7 +30,7 @@ The project includes a custom PostgreSQL query to analyze price trends over the 
 
 | DAG Graph View (Success) | DAG Graph View (Fail) | Email Alert Notification (Failure)  | Grafana Dashboard | Telegram Bot Alert |
 | :---: | :---: | :---: | :---: | :---: |
-| ![DAG Success](screenshots/Airflow_success.jpg) | ![DAG Fail](screenshots/airflow_sending_email.jpg) | ![Email Alert](screenshots/failed_message_via_gmail.jpg) | ![Grafana Dashboard](screenshots/grafana_trend_view.jpg) | ![Telegram Alert](screenshots/Telegram%20Alert.jpg)
+| ![DAG Success](screenshot/Airflow_success.jpg) | ![DAG Fail](screenshot/airflow_sending_email.jpg) | ![Email Alert](screenshot/failed_message_via_gmail.jpg) | ![Grafana Dashboard](screenshot/grafana_trend_view.jpg) | ![Telegram Alert](screenshot/Telegram%20Alert.jpg)
 
 ## 🚀 Setup & Integration
   ### 1. Telegram Bot Setup
