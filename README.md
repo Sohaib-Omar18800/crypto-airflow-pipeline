@@ -49,6 +49,7 @@ The project includes a custom PostgreSQL query to analyze price trends over the 
 ### 3. Requirements
   ```bash
   pip install apache-airflow beautifulsoup4 requests
+```
 
 ## 💡 Key Learnings
   * Scheduling and managing complex workflows with **Airflow DAGs**.
