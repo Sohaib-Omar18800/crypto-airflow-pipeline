@@ -22,7 +22,9 @@ This pipeline automates the process of tracking crypto assets. It uses **Beautif
 2.  **Telegram Dispatch:** Sends the extracted data directly to a Telegram chat/channel.
 3.  **Error Handling:** If the website structure changes or the API is unreachable, a failure callback is triggered.
 4.  **Redundant Alerting:** Sends a critical failure report to the admin's email via Gmail SMTP.
-
+| Workflow |
+| :---: |
+| ![Workflow](screenshot/Crypto Currency Workflow.png) | 
 ## 📊 Data Insights & SQL Analysis
 The project includes a custom PostgreSQL query to analyze price trends over the last hour. Using **Window Functions**, it calculates:
 * **Moving Average:** To smooth out price volatility.
