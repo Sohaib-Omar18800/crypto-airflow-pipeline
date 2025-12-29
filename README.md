@@ -55,4 +55,4 @@ The project includes a custom PostgreSQL query to analyze price trends over the 
 
 ✨ Developed by Sohaib Omar
 Feel free to reach out for collaborations or questions!
-🔗 [linkedin](www.linkedin.com/in/sohaib-omar-188oo)
+🔗 ![linkedin](www.linkedin.com/in/sohaib-omar-188oo)
