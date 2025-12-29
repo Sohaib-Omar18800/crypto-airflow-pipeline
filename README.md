@@ -33,19 +33,22 @@ The project includes a custom PostgreSQL query to analyze price trends over the 
 | ![DAG Success](screenshot/Airflow_success.jpg) | ![DAG Fail](screenshot/airflow_sending_email.jpg) | ![Email Alert](screenshot/failed_message_via_gmail.jpg) | ![Grafana Dashboard](screenshot/grafana_trend_view.jpg) | ![Telegram Alert](screenshot/Telegram%20Alert.jpg)
 
 ## 🚀 Setup & Integration
+
   ### 1. Telegram Bot Setup
   * Create a bot via `@BotFather`.
   * Obtain your `TOKEN` and `CHAT_ID`.
   * Add these as Airflow Variables or environment variables.
-  ### 2. SMTP Configuration
-   Configure your Gmail SMTP settings in `airflow.cfg` or via Airflow UI Connections:
-    * **Host:** `smtp.gmail.com`
-    * **Port:** `587`
-    * **User:** `your_email@gmail.com`
-    * **Password:** `your_16_digit_app_password` (No spaces)
-  ### 3. Requirements
+
+### 2. SMTP Configuration
+  Configure your Gmail SMTP settings in `airflow.cfg` or via Airflow UI Connections:
+  * **Host:** `smtp.gmail.com`
+  * **Port:** `587`
+  * **User:** `your_email@gmail.com`
+  * **Password:** `your_16_digit_app_password` (No spaces)
+
+### 3. Requirements
   ```bash
-  pip install apache-airflow beautifulsoup4 requests ```
+  pip install apache-airflow beautifulsoup4 requests
 
 ## 💡 Key Learnings
   * Scheduling and managing complex workflows with **Airflow DAGs**.
